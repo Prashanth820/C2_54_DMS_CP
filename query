@@ -1,0 +1,9 @@
+create table db ( roll int , name char )
+create table db1 ( roll int , name char , age int )
+display all
+insert into db values ( 1 , nisha )
+select * from db
+update db set name = abc where roll = 1
+select name from db
+delete from db where roll = 1
+drop table db
